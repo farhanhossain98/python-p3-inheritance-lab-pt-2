@@ -15,6 +15,8 @@ class ChattyStudent(Student):
     def raise_hand(self):
          for x in range(0,10):
             super().raise_hand()
+            # in this case we take the for x(any value) in a range of 0 to 10 
+            # and we print out the super().raise_hand that many times
         
     
     
